@@ -1,0 +1,23 @@
+/* TaskRow/TaskRow.css */
+.task-row {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr 1fr 1fr;
+    padding: 10px;
+    align-items: center;
+    border-bottom: 1px solid #eee;
+  }
+  
+  .priority.high {
+    color: red;
+  }
+  
+  .assignee {
+    background: gold;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  

@@ -1,0 +1,14 @@
+/* TaskTable/TaskTable.css */
+.task-table {
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+  }
+  
+  .task-table-header {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr 1fr 1fr;
+    padding: 10px;
+    font-weight: bold;
+    border-bottom: 1px solid #ddd;
+  }
