@@ -1,0 +1,235 @@
+/* RightSidebar.css */
+.task-container {
+    display: flex;
+    width: 1048px;
+    min-height: 720px;
+    padding: 24px;
+    flex-direction: column;
+    gap: 16px;
+    border-radius: 12px;
+    background: #fff;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    box-sizing: border-box; /* Include padding in width calculation */
+  }
+  
+  .task-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Vertically center header content */
+    width: 100%;
+    margin-bottom: 8px;
+  }
+  
+  .task-header h2 {
+    margin: 0;
+    font-size: 20px;
+    font-weight: 600;
+  }
+  
+  .task-buttons {
+    display: flex;
+    gap: 8px;
+  }
+  
+  .task-buttons button {
+    padding: 8px 12px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 500;
+    transition: background-color 0.2s;
+  }
+  
+  .report-issue, .use-template {
+    background-color: #f3f4f6;
+    color: #111827;
+  }
+  
+  .report-issue:hover, .use-template:hover {
+    background-color: #e5e7eb;
+  }
+  
+  .add-task {
+    background-color: #facc15;
+    font-weight: 600;
+    color: #111827;
+  }
+  
+  .add-task:hover {
+    background-color: #eab308;
+  }
+  
+  .filters-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 12px 0;
+    border-bottom: 1px solid #e5e7eb;
+  }
+  
+  .icon-text {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-weight: 500;
+    font-size: 14px;
+    color: #4b5563;
+  }
+  
+  .task-filters {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+  }
+  
+  .task-table-header {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr 1fr 1fr;
+    width: 100%;
+    padding: 12px 0;
+    border-bottom: 1px solid #e5e7eb;
+    font-weight: 600;
+    color: #374151;
+  }
+  
+  .task-row {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr 1fr 1fr;
+    width: 100%;
+    padding: 12px 0;
+    border-bottom: 1px solid #e5e7eb;
+    align-items: center;
+  }
+  
+  .task-row:hover {
+    background-color: #f9fafb;
+  }
+  
+  .task-title {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+  
+  .task-title input[type="checkbox"] {
+    margin: 0;
+    cursor: pointer;
+  }
+  
+  .task-dot {
+    font-size: 12px;
+  }
+  
+  .task-name {
+    font-weight: 500;
+    color: #111827;
+  }
+  
+  .subtask-count {
+    color: #6b7280;
+    font-size: 12px;
+    margin-left: 8px;
+  }
+  
+  .priority {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-weight: 500;
+  }
+  
+  .priority.high {
+    color: #dc2626;
+  }
+  
+  .priority.medium {
+    color: #d97706;
+  }
+  
+  .priority.sos {
+    color: #991b1b;
+  }
+  
+  .assignee {
+    background-color: #fde68a;
+    color: #92400e;
+    padding: 4px;
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    font-weight: 600;
+  }
+  
+  .new-task {
+    margin-top: 16px;
+    color: #2563eb;
+    font-weight: 500;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    padding: 8px 0;
+    transition: color 0.2s;
+  }
+  
+  .new-task:hover {
+    color: #1d4ed8;
+    text-decoration: underline;
+  }
+  
+  /* MultiSelectDropdown styling */
+  .dropdown-container {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-button {
+    padding: 6px 12px;
+    border-radius: 6px;
+    border: 1px solid #e5e7eb;
+    background: #f9fafb;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    font-size: 14px;
+  }
+  
+  .dropdown-button:hover {
+    background: #f3f4f6;
+  }
+  
+  .dropdown-content {
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    z-index: 1;
+    padding: 8px;
+    margin-top: 4px;
+  }
+  
+  .dropdown-option {
+    padding: 8px 12px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  
+  .dropdown-option:hover {
+    background-color: #f3f4f6;
+    border-radius: 4px;
+  }
+
+
+
+  

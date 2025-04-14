@@ -1,21 +1,16 @@
-// App.jsx
-// import React from 'react';
-// import './App.css';
-import './App.css'
-import Sidebar from './components/Sidebar/Sidebar';
-import TaskHeader from './components/taskbar/TaskHeader';
-import TaskTable from './components/tasktable/TaskTable';
+import MultiSelectDropdown from "./Components/MultiSelectDropdown";
+import Sidebar from "./Components/Sidebar";
+import RightSidebar from "./Components/RightSidebar";
+import "./App.css";
 
-const App = () => {
+
+function App() {
   return (
-    <div className="app-container">
+    <div className="App">
       <Sidebar />
-      <div className="main-content">
-        <TaskHeader />
-        <TaskTable />
-      </div>
+      <RightSidebar />
     </div>
   );
-};
+}
 
 export default App;
